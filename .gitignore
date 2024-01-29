@@ -1,2 +1,9 @@
 #Archivos especificos
 contraseñas.csv
+
+#directorios especificos
+#usuarios/
+#usuarios/**/*
+
+#Archivos especificos en carpetas especificas
+#usuarios/**/usuario*.txt se pone el tipo de arhivo por si se deja un archivo que se necesite
