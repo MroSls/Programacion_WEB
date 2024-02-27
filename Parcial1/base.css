@@ -1,0 +1,53 @@
+/* Escribe aquí tus estilos */
+
+@media only screen and (max-width: 750px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+nav {
+    display: flex;
+    background-color: #303030;   
+}
+
+nav a {
+    color: white;
+    font-size: 25px;
+    border-right: 50px;
+    background-color: #303030; 
+}
+
+nav a:hover {
+    color: darkviolet;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 500px;
+    border: 2px solid black;
+    margin: auto    ;
+}   
+
+
+p, input {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+a{
+    color: white;
+    background-color: darkviolet;
+    padding: 5px;
+}
+a:hover{
+    color: white;
+    background-color: rgb(70, 0, 100);
+}   
+
+hr {
+    margin: 5px
+}
